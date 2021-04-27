@@ -1,0 +1,340 @@
+{% load static %}
+<!DOCTYPE html>
+<html class="no-js" lang="">
+    <head>
+        <!-- meta charset -->
+        <meta charset="utf-8">
+        <!-- site title -->
+        <title>VR| Personal Resume</title>
+        <!-- meta description -->
+        <meta name="description" content="">
+        <!-- mobile viwport meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- fevicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        
+        <!-- ================================
+        CSS Files
+        ================================= -->
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Open+Sans:400,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/themefisher-fonts.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
+        <link rel="stylesheet" href="{% static 'css/dark.css' %}">
+        <link id="color-changer" rel="stylesheet" href="{% static 'css/colors/color-0.css' %}">
+    </head>
+
+    <body class="dark">
+
+        <div class="preloader">
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+        </div>
+
+        <div class="preview-wrapper">
+            <div class="switcher-head">
+                <span>Style Switcher</span>
+                <div class="switcher-trigger tf-tools"></div>
+            </div>
+
+            <div class="switcher-body">
+                <h4>Choose Color:</h4>
+                <ul class="color-options list-none">
+                    <li class="c0" data-color="color-0" title="Default">Default</li>
+                    <li class="c1" data-color="color-1" title="Red">Red</li>
+                    <li class="c2" data-color="color-2" title="Green">Green</li>
+                    <li class="c3" data-color="color-3" title="Blue">Blue</li>
+                </ul>
+            </div>
+        </div>
+
+        <main class="site-wrapper">
+            <div class="pt-table">
+                <div class="pt-tablecell page-resume relative">
+                    <!-- .close -->
+                    <a href="{% url 'index' %}" class="page-close"><i class="tf-ion-close"></i></a>
+                    <!-- /.close -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                                <div class="page-title text-center">
+                                    <h2>My <span class="primary">Resume</span> <span class="title-bg">Resume</span></h2>
+                                    <p>I hereby declare that the below-mentioned information is correct up to my knowledge and <br>I ensure the responsibility for the correctness of the above-mentioned particulars.</p>
+                                </div>
+                            </div>
+                        </div> <!-- /.row -->
+
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="history-block">
+                                    <div class="section-title light clear">
+                                        <h3>Education</h3>
+                                    </div>
+                                    <!-- /.section-title -->
+                                    <div class="history-scroller">
+                                        <div class="history-item">
+                                            <div class="history-icon">
+                                                <span class="history-hex"></span>
+                                                <i class="tf-documents5"></i>
+                                            </div>
+                                            <div class="history-text">
+                                                <h5>HGCE College, Ahmedabad, Gujarat.</h5>
+                                                <span>2009 - 2012</span>
+                                                <p>I have completed B.E. Computer in Gujarat Technological University.</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.history-item -->
+                                        <div class="history-item">
+                                            <div class="history-icon">
+                                                <span class="history-hex"></span>
+                                                <i class="tf-documents5"></i>
+                                            </div>
+                                            <div class="history-text">
+                                                <h5>V.P.M.P. Polytechnic, Gandhinagar, Gujarat.</h5>
+                                                <span>2006 - 2009</span>
+                                                <p>I have completed Diploma C.E. in Technical Education Board.</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.history-item -->
+                                        <div class="history-item">
+                                            <div class="history-icon">
+                                                <span class="history-hex"></span>
+                                                <i class="tf-documents5"></i>
+                                            </div>
+                                            <div class="history-text">
+                                                <h5>R.C. College of Commerce, Ahmedabad, Gujarat.</h5>
+                                                <span>2002 - 2006</span>
+                                                <p>I have completed Bachelor of Commerce in Gujarat University.</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.history-item -->
+                                        <div class="history-item">
+                                            <div class="history-icon">
+                                                <span class="history-hex"></span>
+                                                <i class="tf-documents5"></i>
+                                            </div>
+                                            <div class="history-text">
+                                                <h5>Sharda Higher Secondary High School, Ahmedabad, Gujarat.</h5>
+                                                <span>2002 - 2002</span>
+                                                <p>I have completed H.S.C in Gujarat Higher Secondary Education Board.</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.history-item -->
+                                        <div class="history-item">
+                                            <div class="history-icon">
+                                                <span class="history-hex"></span>
+                                                <i class="tf-documents5"></i>
+                                            </div>
+                                            <div class="history-text">
+                                                <h5>Shri Kailash Shikshan Tirth Higher Secondary School, Ahmedabad, Gujarat</h5>
+                                                <span>2000 - 2000</span>
+                                                <p>I have completed S.S.C in Gujarat Secondary Education Board.</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.history-item -->
+                                    </div>
+                                </div> <!-- /.history-block -->
+                            </div> <!-- /.col -->
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="history-block">
+                                    <div class="section-title light clear">
+                                        <h3>Professional Training</h3>
+                                    </div>
+                                    <!-- /.section-title -->
+                                    <div class="history-scroller">
+                                         <div class="history-item">
+                                            <div class="history-icon">
+                                                <span class="history-hex"></span>
+                                                <i class="tf-documents5"></i>
+                                            </div>
+                                            <div class="history-text">
+                                                <h5>Tops Technologies, Ahmedabad, Gujarat.  </h5>
+                                                <span><h4>Python Web Developer</h4></span>
+                                                <span>12/2020 - 04/2021</span>
+                                                <p>I want to move on with this technology and want to consider a PYTHON programming course for upgraded purposes. Training in Core Python (OOP’s concept, Object and Classes, Exception Handling, String, Collection, Functions, Modules, RE, Multithreding, GUI, Database) and DJango Framework. Using the SQLLite database for creating Web applications. Working with Sublime and Visual Studio Code tool.</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.history-item -->
+                                        <div class="history-item">
+                                            <div class="history-icon">
+                                                <span class="history-hex"></span>
+                                                <i class="tf-documents5"></i>
+                                            </div>
+                                            <div class="history-text">
+                                                <h5>Innovatus Technologies, Pune, MH.  </h5>
+                                                <span><h4>Advance JAVA Training</h4></span>
+                                                <span>2019 - 2020</span>
+                                                <p>I have learned Java programming course for upgrade purpose. Training in Various components of JAVA and application life cycle resources. Training in Core JAVA (OOP’s concept, Object and Classes, Packages and Interfaces, Exception Handling, String, Collection Framework, Multithreading) and Advance JAVA (Java Swing, JDBC, Servlet, JSP, Spring and Hibernate). Using the MySQL database for creating JAVA Web applications. Working with Eclipse IDE tool.</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.history-item -->
+                                        <div class="history-item">
+                                            <div class="history-icon">
+                                                <span class="history-hex"></span>
+                                                <i class="tf-documents5"></i>
+                                            </div>
+                                            <div class="history-text">
+                                                <h5>Web Mastro I.T. Pvt. Ltd., Ahmedabad, Gujarat.</h5>
+                                                <span>Android Developer Trainee</span>
+                                                <span>2014 - 2015</span>
+                                                <p>Training in Various components of Android and application life cycle resources. Creating Menus and Layouts in Android. Using the SQLite database for creating Android applications. Working with Android Studio tool. Also work in Live project and Code and Designing interactive apps with multimedia</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.history-item -->
+                                    </div>
+                                </div> <!-- /.history-block -->
+                            </div> <!-- /.col -->
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="history-block">
+                                    <div class="section-title light clear">
+                                        <h3>Experiences</h3>
+                                    </div>
+                                    <!-- /.section-title -->
+                                    <div class="history-scroller">
+                                        <div class="history-item">
+                                            <div class="history-icon">
+                                                <span class="history-hex"></span>
+                                                <i class="tf-documents5"></i>
+                                            </div>
+                                            <div class="history-text">
+                                                <h5>TransPerfect Solution India Pvt. Ltd., Pune, Maharashtra. </h5>
+                                                <span>2015 - Present</span>
+                                                <p>Support Analyst</p>
+                                                <span>
+                                                    
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <!-- /.history-item -->
+                                        <div class="history-item">
+                                            <div class="history-icon">
+                                                <span class="history-hex"></span>
+                                                <i class="tf-documents5"></i>
+                                            </div>
+                                            <div class="history-text">
+                                                <h5>Mangalam InfoTech Pvt. Ltd., Ahmedabad, Gujarat.</h5>
+                                                <span>2013 - 2015</span>
+                                                <p>Associate EDD</p>
+                                                <span>
+                                                    
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <!-- /.history-item -->
+                                    </div>
+                                </div> <!-- /.history-block -->
+                            </div> <!-- /.col -->
+                            <div class="col-xs-12 col-sm-6">
+                               <div class="history-block">
+                                    <div class="section-title light clear">
+                                        <h3>Area of Expertise</h3>
+                                    </div>
+                                    <!-- /.section-title -->
+                                    <div class="history-scroller">
+                                        <div class="history-item">
+                                            <!-- <div class="history-icon">
+                                                <span class="history-hex"></span>
+                                                <i class="tf-documents5"></i>
+                                            </div> -->
+                                            <div class="history-text">
+                                                <p>
+                                                    <ul>
+                                                        <li>Expertise on Relativity, Concordance, Summation, Ringtail querying, loading to Export master level.</li>
+                                                        <li>Excellent knowledge of litigation support software tools (LAW).</li>
+                                                        <li>SQL, PL/SQL, Oracle operations with E-Discovery and Data processing</li>
+                                                        <li>System analyzing, review, issues, and data flow.</li>
+                                                        <li>MS Access, SQL Server, Data Analysis and Scripting languages.</li>
+                                                        <li>Efficient project planning, presentation and communication skills.</li>
+                                                        <li>Effective software engineering and data maintain.</li>
+                                                        <li>Training to Junior and Demonstration of new launch in house application.</li>
+                                                        <li>Proactive initiative to ensure consistent quality and continuous improvement.</li>
+                                                        <li>Be willing to have proper attitude maintaining the timeline of the work job.</li>
+                                                        <li>Create and maintain litigation review databases\indexes in various platforms.</li>
+                                                    </ul>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- /.history-item -->
+                                    </div>
+                                </div> <!-- /.history-block -->
+                            </div> <!-- /.col -->
+                        </div> <!-- /.row -->
+                        <br>
+                         <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="history-block">
+                                    <div class="section-title light clear">
+                                        <h3>Job Descriptions</h3>
+                                    </div>
+                                    <!-- /.section-title -->
+                                    <div class="history-scroller">
+                                        <div class="history-item">
+                                            <!-- <div class="history-icon">
+                                                <span class="history-hex"></span>
+                                                <i class="tf-documents5"></i>
+                                            </div> -->
+                                            <div class="history-text">
+                                                <p>
+                                                    <ul>
+                                                        <li>Continuous growth, R&D and development in Electronic Discovery processes (e-Discovery)Production specialist with accuracy and timeline.</li>
+                                                        <li>Manual testing, Implementation and suggestions on new arrival applications.</li>
+                                                        <li>Import, Export Oracle data to Other Databases SQL operations like create, update, append, delete, and migrate.</li>
+                                                        <li>Facilitate and cultivate a team environment, commitment to teamwork.</li>
+                                                        <li>Review of juniors and train them according to project standards Excellent understanding of enterprise level applications, their architecture, issues, and data flow etc.</li>
+                                                        <li>Communicate clearly issues, thoughts, timelines and updates with Team leader and project managers.</li>
+                                                        <li>Provide suggestions, innovations, make assertive decisions, and take responsibility and accountability for actions.</li>
+                                                        <li>Demonstrate accuracy, overview quality assurance process of documents/Data load files presented to client.</li>
+                                                        <li>Ensure that products and services are delivered to the client’s satisfaction on time.</li>
+                                                        <li>Provides feedback for performance, best practices, and overall development.</li>
+                                                    </ul>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- /.history-item -->
+                                    </div>
+                                </div> <!-- /.history-block -->
+                            </div> <!-- /.col -->
+                            
+                        </div><!-- /.row -->
+                        <br>
+                        <p class="text-center"><a href="{% static 'cv/Vijay_CV_20200824.PDF' %}" class="btn btn-primary py-3 px-3">Download CV</a></p>
+                    </div> <!-- /.container -->
+
+                    <nav class="page-nav clear">
+                        <div class="container">
+                            <div class="flex flex-middle space-between">
+                                <span class="prev-page"><a href="{% url 'services' %}" class="link">&larr; Prev Page</a></span>
+                                <span class="copyright hidden-xs">Copyright &copy; 2016 Phantom, All Rights Reserved.</span>
+                                <span class="next-page"><a href="{% url 'works' %}" class="link">Next Page &rarr;</a></span>
+                            </div>
+                        </div>
+                        <!-- /.page-nav -->
+                    </nav>
+                    <!-- /.container -->
+
+                </div> <!-- /.pt-tablecell -->
+            </div> <!-- /.pt-table -->
+        </main> <!-- /.site-wrapper -->
+        
+        <!-- ================================
+        JavaScript Libraries
+        ================================= -->
+        <script src="{% static 'js/vendor/jquery-2.2.4.min.js' %}"></script>
+        <script src="{% static 'js/vendor/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/jquery.easing.min.js' %}"></script>
+        <script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+        <script src="{% static 'js/jquery.nicescroll.min.js' %}"></script>
+        <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+        <script src="{% static 'js/jquery-validation.min.js' %}"></script>
+        <script src="{% static 'js/form.min.js' %}"></script>
+        <script src="{% static 'js/main.js' %}"></script>
+    </body>
+</html>
